@@ -1,4 +1,4 @@
-# hello/forms.py
+
 from django import forms
 
 class AddParticipantForm(forms.Form):

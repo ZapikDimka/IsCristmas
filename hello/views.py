@@ -1,4 +1,4 @@
-# hello/views.py
+
 from django.shortcuts import render, redirect
 from datetime import date
 from .forms import AddParticipantForm
