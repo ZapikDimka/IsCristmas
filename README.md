@@ -1,9 +1,4 @@
-Ось правильний формат без розбиття на окремі поля:
-
-vbnet
-
- IsCristmas Project
-
+IsCristmas Project
 This project is designed to check whether today is Christmas and implements a "Secret Santa" game using the Django framework.
 
  Description
