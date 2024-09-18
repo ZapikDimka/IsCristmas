@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Is it Christmas?</title>
+    {% load static %}  <!-- Додаємо цей рядок -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Today is: {{ today }}</h1>
+        {% if is_christmas %}
+            <h2>Yes! Today is Christmas!</h2>
+        {% else %}
+            <h2>No, today is not Christmas.</h2>
+        {% endif %}
+
+        <p><a href="{% url 'secret_santa' %}">Перейти до Таємного Санти</a></p>
+    </div>
+</body>
+</html>
